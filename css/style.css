@@ -1,0 +1,744 @@
+/* == Google Fonts == */
+@import url('https://fonts.googleapis.com/css?family=Oxygen:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:500&display=swap');
+
+/* === Menu Section === 
+-------------------------*/
+.brandImage {
+    width: 55px;
+    height: 40px;
+}
+
+#mainNavigationSection .bg-dark {
+    line-height: 2rem !important;
+    border-bottom: 3px solid #ff5722;
+    background: #005B79 !important;
+}
+
+#mainNavigationSection button:focus {
+    outline: 0;
+}
+
+.navbar-nav .nav-link {
+    padding: 0 !important;
+    margin-left: 1.5rem;
+}
+
+#mainMenu a {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Oxygen', sans-serif;
+    transition: .3s all ease;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link {
+    color: #ff5722 !important;
+}
+
+#mainMenu a:hover {
+    color: #ff5722;
+}
+
+.textOrange {
+    color: #ff5722;
+    font-weight: bold;
+    margin: 10px 0 10px 0;
+    font-size: 21px;
+}
+
+#sliderSection .textOrange {
+    color: #ff5722;
+    font-weight: bold;
+    margin-bottom: 0;
+    font-size: 65px;
+}
+
+.fontStyle b h3 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav .navbar-collapse.collapsing ul,
+nav .navbar-collapse.show ul {
+    margin-top: 0rem !important;
+}
+
+nav li a.active {
+    color: #ff5722 !important;
+    background: none;
+    padding: 0;
+    border-radius: 0;
+    margin: 0;
+}
+
+/* === Slide Section === 
+------------------------*/
+
+#sliderSection {
+    background-image: url('../img/carousel-img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 550px;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    min-height: 550px;
+}
+
+#sliderSection h2 {
+    margin-top: 50%;
+}
+
+#sliderSection img {
+    margin-top: 12%;
+}
+
+#sliderSection h3 {
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+/* === Angle Bar === */
+.angleBar-1::before {
+    content: '';
+    display: block;
+    height: 80px;
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    transform: skewY(-2deg);
+    left: 0px;
+    margin-top: -25px;
+    border-top: 3px dotted #ff5722;
+}
+
+/* === Content Section === 
+--------------------------*/
+.borderRound {
+    border-radius: 5px;
+    box-shadow: 0px 0px 12px 3px #ff5722;
+}
+
+.borderRound img {
+    width: 250px;
+    height: 250px;
+    border: 5px solid #ff5722b8;
+    padding: 2px;
+}
+
+#contentSection .demoText {
+    margin: 0;
+}
+
+/* === h2 Style === */
+h2 {
+    color: #ff5722;
+    position: relative;
+    font-family: 'Quicksand', sans-serif;
+    padding-bottom: 10px;
+}
+
+h2::after {
+    content: '';
+    display: block;
+    width: 70px;
+    height: 3px;
+    background: #18D26E;
+    position: absolute;
+    bottom: 0;
+    left: calc(49% - 24px);
+}
+
+h2::before {
+    content: '';
+    display: block;
+    width: 105px;
+    height: 1px;
+    background: #fa7a02;
+    position: absolute;
+    bottom: 1px;
+    left: calc(49% - 41px);
+}
+
+
+/* === My About Section === */
+#aboutSection {
+    background: #005B79 !important;
+}
+
+/* === My Skill Section === 
+--------------------------*/
+
+.skillTitle {
+    font-family: 'Quicksand', sans-serif;
+    color: #ff5722;
+    font-weight: bold;
+}
+
+.textInfo {
+    font-family: 'Quicksand', sans-serif;
+    color: #005B79;
+    font-weight: bold;
+}
+
+#mySkill .progress {
+    margin-bottom: 10px;
+    height: 16px;
+    background: #ddd !important;
+}
+
+#mySkill .progress-bar {
+    width: 1px;
+    transition: .9s all ease;
+    text-align: left;
+}
+
+#mySkill .val {
+    float: right;
+    font-style: normal;
+    margin: 0 20px 0 0;
+}
+
+/* === Progress Bar === */
+.fontName {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.html {
+    color: #E44D26 !important;
+}
+
+.bg-html {
+    background-color: #E44D26 !important;
+}
+
+.bg-css {
+    background-color: #42A5F5 !important;
+}
+
+.css {
+    color: #42A5F5 !important;
+}
+
+.javascript {
+    color: #000 !important;
+}
+
+.bg-javascript {
+    background-color: #FFC107 !important;
+    color: #000;
+}
+
+.bg-bootstrap {
+    background-color: #563D7C !important;
+}
+
+.bootstrap {
+    color: #563D7C !important;
+}
+
+.bg-jquery {
+    background-color: #5CE1E6 !important;
+}
+
+.nodeJS {
+    color: #008000 !important;
+}
+
+/* === Progress Bar End === */
+
+/* === Software === */
+
+.softwareTitle,
+.languageTitle {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+.photoShopTitleColor {
+    color: #045B74;
+}
+
+.photoShopBg {
+    background-color: #045B74 !important;
+}
+
+.illustratorTitleColor {
+    color: #2E1D09;
+}
+
+.illustratorBg {
+    background-color: #2E1D09 !important;
+}
+
+.camtasiaTitleColor {
+    color: #71B621;
+}
+
+.camtasiaBg {
+    background-color: #71B621 !important;
+}
+
+.premierProTitleColor {
+    color: #611F75;
+}
+
+.premierProBg {
+    background-color: #611F75 !important;
+}
+
+.msWordTitleColor {
+    color: #295497;
+}
+
+.msWordBg {
+    background-color: #295497 !important;
+}
+
+.msExcelTitleColor {
+    color: #1F7246;
+}
+
+.msExcelBg {
+    background-color: #1F7246 !important;
+}
+
+/* === Software End === */
+
+
+/* === Language === */
+
+/* === Language End === */
+
+#workExperienceSection .companyName {
+    font-family: Algerian;
+    color: #ff5722;
+    font-size: 21px;
+}
+
+#workExperienceSection .totalExperience {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    color: #005B79;
+
+}
+
+#workExperienceSection .card {
+    border: 1px solid #ff5722;
+
+}
+
+#workExperienceSection .card-body {
+    transition: .5s all ease;
+    transform: scale(0.9);
+    padding: 10px 10px !important;
+}
+
+
+#workExperienceSection .card:hover .card-body {
+    transform: scale(1);
+}
+
+#workExperienceSection .experienceDetail {
+    color: #005B79;
+}
+
+/* === Project Chart === */
+.projectChartBg {
+    box-shadow: 0px 0px 30px 0px #ff5722;
+    border-radius: 0 15px;
+}
+
+.bgChart {
+    background: #005B79;
+    border-radius: 5px;
+}
+
+.chartOne {
+    font-size: 40px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.chartTwo {
+    font-size: 40px;
+}
+
+.bgChart h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* === Portfolio === */
+
+
+.portfolioTitle,
+.whyChooseMeTitle {
+    color: #005b79 !important;
+}
+
+#portfolio .card .card-body{
+    padding: 0 !important;
+}
+#portfolio .card{
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+#portfolio .card:hover .portfolioLink{
+    display: block;
+}
+#portfolio .card img{
+    transform: scale(.9);
+    transition: .5s all ease;
+}
+#portfolio .card:hover img{
+    transform: scale(1);
+}
+#portfolio .card .portfolioLink{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(0 91 121 / 59%);
+    display: none;
+    z-index: 1;
+}
+#portfolio .card .portfolioLink a{
+    color: #ff5722;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+/* === Service Section === */
+.serviceOverlay {
+    background-color: rgb(0, 91, 121);
+    min-height: 550px;
+}
+
+/* === Service Icon === */
+#serviceSection .iconBg {
+    font-size: 50px;
+    color: #fff;
+    border: 5px solid #ff5722;
+    width: 114px;
+    left: calc(50% - 56px);
+    top: -45px;
+    border-radius: 5px;
+    position: absolute;
+    transition: .3s all ease;
+}
+
+#serviceSection .serviceIcon {
+    background: #ff5722;
+    transition: .5s all ease;
+}
+
+#serviceSection .card {
+    cursor: pointer;
+}
+
+#serviceSection .card:hover .serviceIcon {
+    transform: scale(.9);
+    background: #ff5722;
+}
+
+#serviceSection .serviceContent,
+.facilitiesContent {
+    font-size: 15px;
+    font-family: 'Oxygen', sans-serif;
+    color: #353535;
+    text-align: justify;
+}
+
+/* === Process Section === */
+#ourProcess h3 {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.processIcon i {
+    float: left;
+    font-size: 25px;
+    width: 60px;
+    height: 60px;
+    padding: 19px;
+    background: #ff5722;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.processContent {
+    font-size: 15px;
+    font-family: 'Oxygen', sans-serif;
+    color: #353535;
+    text-align: left;
+    margin: 10px 0 0 0;
+}
+
+/* === Facilities Section === */
+#facilitiesSection {
+    background: #EFF1F3;
+}
+
+#facilitiesSection .cardBorder {
+    border: 1px solid rgb(255, 87, 34) !important;
+    cursor: pointer;
+}
+
+#facilitiesSection .facilitiesIcon {
+    font-size: 60px;
+    color: #fff;
+    padding: 14px;
+    width: 110px;
+    display: inline-block;
+    border-radius: 5px;
+    border: 5px solid rgb(255, 87, 34);
+}
+
+.iconHover {
+    background: rgb(255, 87, 34);
+    transition: .3s all ease;
+}
+
+#facilitiesSection .card:hover .iconHover {
+    transform: scale(.9);
+}
+
+/* === Accordion Section === */
+#accordion .cardBorder {
+    border: none !important;
+}
+
+#accordion .card-header:hover a {
+    text-decoration: none;
+}
+
+#accordion .card-header {
+    border-bottom: none;
+}
+
+#accordion .bgFaq {
+    box-shadow: 0px 0px 30px 0px #008021;
+    border-radius: 5px;
+}
+
+.card-header:first-child {
+    border-radius: 0;
+}
+
+#accordion .bgColor {
+    background: #005B79;
+}
+
+.FAQContent {
+    border-left: 5px solid #ff5722;
+    transition: .2s all ease;
+}
+
+.FAQContent:hover {
+    border-left: 5px solid #005B79;
+}
+
+#accordion .card button {
+    border: none;
+}
+
+#accordion button:focus {
+    outline: 0;
+}
+
+/* === Testimonial Section === */
+#testimonial {
+    background: rgb(0, 91, 121);
+}
+
+#testimonial .testimonialBlog img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+#testimonial .testimonialBlog h3, h5{
+    color:#fff;
+}
+#testimonial .testimonialBlog i {
+    color: #fff;
+}
+
+#testimonial .testimonialBlog .testContent {
+    font-size: 15px;
+    font-family: 'Berkshire', sans-serif;
+    color: #fff;
+    font-style: italic;
+}
+
+.carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #fff;
+    border: 1px solid #ff5722;
+    opacity: 1;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+    background: #ff5722;
+}
+
+/* === Hobie Section === */
+#hobbiesSection .hobbieIcon .card {
+    background: #fff;
+    color: #005B79;
+    cursor: pointer;
+    border: 1px solid #005B79;
+    transition: .3s all ease;
+}
+
+#hobbiesSection .hobbieIcon h5 {
+    color: #005B79;
+    font-family: 'Berkshire', sans-serif;
+    font-weight: bold;
+}
+
+#hobbiesSection .hobbieIcon .card:hover {
+    background: #005B79;
+    color: #fff;
+
+}
+
+#hobbiesSection .hobbieIcon .card:hover h5 {
+    color: #fff;
+}
+
+#hobbiesSection .hobbieIcon i {
+    font-size: 65px;
+}
+
+/* === Hobie Section End === */
+
+/* === Contact Section === */
+#contact .card-body {
+    padding: 30px 7px;
+}
+
+#contact .socialIcon {
+    background: #F7F7F7;
+    margin: 10px 0 10px 0;
+    border: 1px solid #DFDFDF;
+}
+
+#contact .socialIcon i {
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    border-radius: 50%;
+    color: #18D26E;
+    padding-top: 11px;
+    border: 1px solid #18D26E;
+    margin-bottom: 10px;
+    transition: .3s all ease;
+}
+
+#contact .socialIcon img {
+    width: 33px;
+    height: auto;
+}
+
+#contact .socialLink a {
+    color: #6C758E;
+}
+
+#contact .socialIcon a:hover i {
+    transform: rotate(20deg);
+}
+
+#contact .btn-bg {
+    background: #ff5722;
+    color: #fff;
+}
+
+#contact .btn-bg:hover {
+    background: #12b95f;
+    color: #fff;
+}
+
+/* Contact Form
+--------------------------------*/
+#contact .form #sendmessage {
+    color: #18d26e;
+    border: 1px solid #18d26e;
+    display: none;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  #contact .form #errormessage {
+    color: red;
+    display: none;
+    border: 1px solid red;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  #contact .form #sendmessage.show, #contact .form #errormessage.show, #contact .form .show {
+    display: block;
+  }
+  
+  #contact .form .validation {
+    color: red;
+    display: none;
+    margin: 0 0 20px;
+    font-weight: 400;
+    font-size: 13px;
+  }
+  
+  #contact .form input, #contact .form textarea {
+    padding: 10px 14px;
+    box-shadow: none;
+    font-size: 15px;
+  }
+
+/* === Footer Section === */
+#footerSection {
+    border-top: 3px solid #ff5722;
+    background: #005B79 !important;
+}
+
+#footerSection .copyRight a {
+    color: #ff5722;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+/* == Media Query == */
+@media (max-width: 991px) {
+    .navbar-nav .nav-link {
+        margin-left: 0rem;
+    }
+}
