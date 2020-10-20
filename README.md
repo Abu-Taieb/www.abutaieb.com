@@ -1,1 +1,1 @@
-# www.abutaieb.com
+# abutaieb.com
